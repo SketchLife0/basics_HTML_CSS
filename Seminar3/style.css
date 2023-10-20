@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./fonts/gilroy-bold.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./fonts/gilroy-medium.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(./fonts/gilroy-semibold.ttf);
+    font-weight: 400;
+}
+html{
+    font-family: Gilroy;
+}
+
+.header{
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_logo{
+    display: flex;
+    margin-right: 14px;
+}
+.header_brand{
+    display: flex;
+    margin-right: 500px;
+}
+.header_brand_add_color{
+    color: #F25822;
+}
+
+.header_menu{
+    display: flex;
+    gap: 14px;
+}
+.header_menu_main_elem{
+    color: #F25822;
+    font-family: Gilroy-Semibold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.header_menu_elem{
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+}
+.main_text_container{
+    width: 522px;
+height: 374px;
+}
+.main_info{
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    line-height: normal;
+}
+.additional_info{
+    padding-top: 17px;
+    padding-bottom: 37px;
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    font-family: Gilroy-Medium;
+}
+.buttons{
+    display: flex;
+    gap: 72px;
+    align-items: center
+}
+.main_button{
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+.link{
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+
+footer{
+    height: 243px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+body, h1, p{
+    margin: 0;
+}
