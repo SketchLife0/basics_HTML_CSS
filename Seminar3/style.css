@@ -17,6 +17,12 @@ html{
     font-family: Gilroy;
 }
 
+.center{
+    padding-left: calc(50% - 645px);
+    padding-right: calc(50% - 645px);
+    margin: 0   ;
+}
+
 .header{
     height: 114px;
     display: flex;
@@ -25,11 +31,12 @@ html{
 }
 .header_logo{
     display: flex;
+    margin-left: 59px;
     margin-right: 14px;
 }
 .header_brand{
     display: flex;
-    margin-right: 500px;
+    margin-right: 346px;
 }
 .header_brand_add_color{
     color: #F25822;
@@ -38,6 +45,7 @@ html{
 .header_menu{
     display: flex;
     gap: 14px;
+    margin-right: 214px;
 }
 .header_menu_main_elem{
     color: #F25822;
@@ -68,7 +76,8 @@ section{
 }
 .main_text_container{
     width: 522px;
-height: 374px;
+    height: 374px;
+    margin-left: 16px;
 }
 .main_info{
     color: #000;
@@ -120,5 +129,5 @@ footer{
     gap: 48px;
 }
 body, h1, p{
-    margin: 0;
+    margin: 0 auto;
 }
