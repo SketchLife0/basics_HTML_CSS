@@ -18,25 +18,24 @@ html{
 }
 
 .center{
-    padding-left: calc(50% - 645px);
-    padding-right: calc(50% - 645px);
-    margin: 0   ;
+    margin: 0 auto;
+    width: 1289px;
 }
 
-.header{
-    height: 114px;
+header{
+    padding-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    gap: 450px;
 }
 .header_logo{
     display: flex;
-    margin-left: 59px;
     margin-right: 14px;
 }
 .header_brand{
     display: flex;
-    margin-right: 346px;
+    align-items: center;
 }
 .header_brand_add_color{
     color: #F25822;
@@ -44,8 +43,7 @@ html{
 
 .header_menu{
     display: flex;
-    gap: 14px;
-    margin-right: 214px;
+    gap: 25px;
 }
 .header_menu_main_elem{
     color: #F25822;
@@ -68,16 +66,13 @@ html{
 
 main{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-section{
-    display: flex;
-}
+
 .main_text_container{
     width: 522px;
     height: 374px;
-    margin-left: 16px;
 }
 .main_info{
     color: #000;
@@ -122,11 +117,9 @@ section{
 }
 
 footer{
-    height: 243px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 48px;
 }
 body, h1, p{
     margin: 0 auto;
