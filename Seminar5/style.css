@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(./fonts/gilroy-regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(./fonts/gilroy-bold.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./fonts/gilroy-medium.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(./fonts/gilroy-semibold.ttf);
+    font-weight: 400;
+}
+html{
+    font-family: Gilroy;
+}
+
+.center{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.additiona-info{
+    background: #FFF;
+}
+.blocks{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 30px;
+    justify-content: center;
+}
+
+.block{
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.main-block{
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.long-str{
+    width: 700px;
+    text-align: center;
+}
+
+.big_block{
+    margin-top: 50px;
+    background: #FFF;
+    text-align: center;
+}
+.img_im_block{
+    width: 370px;
+}.broken_img{
+    margin-top: 15px;
+}
+
+.text_in_block{
+    margin: 22px 26px 39px;
+    opacity: 0.5;
+}
+
+button{
+    margin-bottom: 50px;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+
+body{
+    background: #FAFAFA;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-family: Gilroy-Regular;
+    opacity: 0.7;
+    line-height: 150%;
+}
+h1{
+    margin: 0;
+    font-size: 45px;
+    padding-top: 92px;
+    padding-bottom: 19px;
+}
+h2{
+    margin: 25px auto 17px;
+}
+h6{
+    margin: 25px 0 0;
+}
