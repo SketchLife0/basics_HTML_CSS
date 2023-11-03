@@ -54,16 +54,15 @@ html{
     width: 700px;
     text-align: center;
 }
-
+.big_blocks{
+    margin-top: 50px;    
+}
 .big_block{
-    margin-top: 50px;
     background: #FFF;
     text-align: center;
 }
 .img_im_block{
     width: 370px;
-}.broken_img{
-    margin-top: 15px;
 }
 
 .text_in_block{
