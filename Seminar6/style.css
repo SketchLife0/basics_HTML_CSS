@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Black.ttf);
+    font-weight: 900;
+}
+html{
+    font-family: Lato;
+}
+body, h1, p{
+    margin: 0;
+}
+
+.center{
+    margin: 0 auto;
+    width: 1140px;
+}
+.pink-txt{
+    color: #F16D7F;
+}
+
+.big-txt{
+    font-size: 48px;
+    font-weight: 900;
+}
+.additional-txt{
+    white-space: nowrap;
+}
+header{
+    background-color: #222;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.start-header{
+    display: flex;
+    gap: 41px;
+}
+
+.main-post-background{
+    background-color: #F1E4E6;
+}
+.main-post{
+    display: flex;
+    align-items: center
+}
+img{
+    max-width: 100%;
+}
+
