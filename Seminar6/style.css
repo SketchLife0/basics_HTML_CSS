@@ -30,15 +30,48 @@ body, h1, p{
     width: 1140px;
 }
 
-.pink-txt{
+.pink{
     color: #F16D7F;
+}
+.white{
+    color: #fff;
 }
 .big-txt{
     font-size: 48px;
     font-weight: 900;
+    color: #222;
 }
 .additional-txt{
     font-weight: 700;
+    color: #222;
+}
+.section-name{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #222;
+}
+.section-description{
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.product-name{
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+.product-description{
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+}
+.price{
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400;
+
 }
 
 header{
@@ -62,7 +95,7 @@ header{
 .main-post{
     display: flex;
     align-items: center;
-    margin-bottom: 35px;
+    margin-bottom: 65px;
 }
 .left-block{
     display: flex;
@@ -85,14 +118,11 @@ header{
     gap: 30px;
 }
 
-.block {
+.ad_block {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgba(33, 22, 22, 0.70); */
-    z-index: 1;
-    height: 13fr;
 }
 .block_img{
     position: relative;
@@ -105,18 +135,54 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.main_txt_ad{
+    font-size: 24px;
+    font-weight: 700;
+}
+.additional_txt_ad{
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .block4{
     grid-column: 1 / 4;
-    height: 9 fr;
 }
 
-.a{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+.section{
+    margin: 96px auto 48px;
+}
+
+.block{
+    background-color: #F8F8F8;
+}
+.product-img{
     display: flex;
+    height: 420px;
     justify-content: center;
-    align-items: center;
+}
+.product-block2{
+    background-color: #F7E4E2;;
+}
+.product-info{
+    padding: 24px 16px;
+    gap: 16px;
+    display: grid;
+}
+
+.button{
+    display: flex;
+    justify-content: center
+}
+button{
+    margin: 48px auto 60px;
+    text-align: center;
+    width: 212px;
+    height: 48px;
+    flex-shrink: 0;
+    border-color: #FF6A6A;
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-weight: 400;
 }
