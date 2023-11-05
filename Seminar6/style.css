@@ -29,17 +29,18 @@ body, h1, p{
     margin: 0 auto;
     width: 1140px;
 }
+
 .pink-txt{
     color: #F16D7F;
 }
-
 .big-txt{
     font-size: 48px;
     font-weight: 900;
 }
 .additional-txt{
-    white-space: nowrap;
+    font-weight: 700;
 }
+
 header{
     background-color: #222;
     height: 75px;
@@ -60,9 +61,62 @@ header{
 }
 .main-post{
     display: flex;
-    align-items: center
+    align-items: center;
+    margin-bottom: 35px;
 }
-img{
-    max-width: 100%;
+.left-block{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 64px;
+}
+.right-block{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%
+}
+.rectangle{
+    margin-right: 16px;
 }
 
+.blocks{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 30px;
+}
+
+.block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(33, 22, 22, 0.70); */
+    z-index: 1;
+    height: 13fr;
+}
+.block_img{
+    position: relative;
+}
+.block_txt{
+    position: absolute;
+    background-color: rgba(33, 22, 22, 0.70);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block4{
+    grid-column: 1 / 4;
+    height: 9 fr;
+}
+
+.a{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
