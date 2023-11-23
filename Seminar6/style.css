@@ -21,7 +21,7 @@
 html{
     font-family: Lato;
 }
-body, h1, p{
+body, h1, h2, p{
     margin: 0;
 }
 
@@ -82,11 +82,10 @@ header{
 }
 .all_header{
     width: 100%;
-    padding: 0 16px;
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .start-header{
     display: flex;
@@ -211,17 +210,19 @@ button{
     font-size: 16px;
     font-weight: 400;
 }
-@media screen and (max-width: 1439px){
+@media screen and (max-width: 1440px){
     .header{
-        padding: 0 50px;
-        justify-content: space-between;
+        width: 100%;
     }
     .center{
-        width: 100%;
-        padding: 0 16px;
+        width: calc(100% - 32px);
+
     }
     .big-txt{
         font-size: 44px;
+    }
+    .ad_blocks{
+        gap: 20px;
     }
     .additional-txt{
         font-size: 24px;
