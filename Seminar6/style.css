@@ -91,6 +91,10 @@ header{
     display: flex;
     gap: 41px;
 }
+.menu{
+    display: flex;
+    gap: 25px;
+}
 
 .main-post-background{
     background-color: #F1E4E6;
@@ -233,5 +237,52 @@ button{
 }
 
 @media screen and (max-width: 768px){
-    
+    .header-menu1{
+        width: 0;
+    }
+    .header-menu2{
+        width: 0;
+    }
+    .left-block{
+        width: 0;
+        margin: 0;
+    }
+    .right-block{
+        height: 50vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .big-txt{
+        font-size: 38px;
+    }
+    .additional-txt{
+        font-size: 20px;
+    }
+    .ad_blocks {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+    }
+    .block4 {
+        grid-column: 1/2;
+        overflow: hidden;
+    }
+    .block4-img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: contain
+    }
+    .blocks{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        width: calc(100% - 16px);
+    }
+    .button{
+        margin: 40px auto 85px;
+        background-color: #FFF;
+    }
 }
