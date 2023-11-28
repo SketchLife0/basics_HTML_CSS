@@ -247,6 +247,9 @@ button {
     background-color: #F8F8F8;
     font-size: 16px;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1440px) {
@@ -330,8 +333,4 @@ button {
         width: calc(100% - 16px);
     }
 
-    .button {
-        margin: 40px auto 85px;
-        background-color: #FFF;
-    }
 }
