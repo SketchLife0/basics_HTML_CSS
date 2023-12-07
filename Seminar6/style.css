@@ -213,10 +213,11 @@ header {
     display: flex;
     width: 100%;
     justify-content: center;
+    position: relative;
 }
-
-.product-block2 {
-    background-color: #F7E4E2;
+.block:hover .product-img::after{
+    content: "";
+    position: absolute;
 }
 
 .product-info {
@@ -233,13 +234,18 @@ header {
     width: 212px;
     height: 48px;
     flex-shrink: 0;
+    background-color: #FFF;
     border-color: #FF6A6A;
-    background-color: #F8F8F8;
     font-size: 16px;
     font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #FF6A6A;
+}
+.button-product:hover{
+    background-color:#F16D7F;
+    color:#FFF;
 }
 
 .services-background {
@@ -410,6 +416,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social-media:hover {
+    background-color:#F16D7F;
+    transition: filter 0.3s;
+}
+.social-media:hover path{
+    fill: #FFFFFF;
 }
 
 @media screen and (max-width: 1440px) {
