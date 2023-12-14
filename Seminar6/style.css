@@ -80,6 +80,8 @@ ul {
     color: #5D5D5D;
     font-size: 14px;
     font-weight: 300;
+    max-height: 51px;
+    overflow: hidden;
 }
 
 .price {
@@ -303,6 +305,9 @@ header {
     display: flex;
     align-items: center;
     gap: 11px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .button-buy button:hover {
@@ -311,12 +316,6 @@ header {
 
 .button-buy button:active {
     transform: scale(0.95);
-}
-
-.button-buy button p {
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 400;
 }
 
 .product-img {
@@ -365,9 +364,10 @@ header {
 }
 
 .services {
-    display: flex;
+    display: grid;
     gap: 30px;
     padding: 104px 0;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .service {
@@ -386,6 +386,8 @@ header {
     font-weight: 300;
     opacity: 0.7;
     padding: 0 30px;
+    max-height: 65px;
+    overflow: hidden;
 }
 
 .service-name {
@@ -452,12 +454,6 @@ header {
     display: flex;
     align-items: center;
     margin-top: 32px;
-
-}
-
-.subscribe-block input {
-    width: 170px;
-    height: 36px;
 }
 
 .subscribe-block input:focus {
@@ -469,6 +465,8 @@ header {
 }
 
 .subscribe-block input {
+    width: 170px;
+    height: 36px;
     background: none;
     border: none;
     padding: 0;
@@ -488,7 +486,7 @@ header {
     left: 256px;
 }
 
-.subscribe-block button p {
+.subscribe-block button span {
     position: absolute;
     color: #FFF;
     font-size: 14px;
@@ -621,14 +619,15 @@ footer {
     }
 
     .services {
-        display: grid;
         gap: 48px;
         padding: 48px 0 64px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .service p {
         width: 310px;
         padding: 0;
+        max-width: 310px;
     }
 
     .subscribe-background-img {
